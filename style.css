@@ -206,6 +206,7 @@ h6 {
   place-items: center;
   text-align: center;
   border-radius: 10px;
+  margin-bottom: 0;
 }
 .sec5::before,
 .sec5::after {
@@ -262,7 +263,10 @@ h6 {
     margin-top: 30px;
   }
   span {
+    font-size: 20px;
     border: 1px solid rgba(51, 197, 255, 1);
+    padding: 3px;
+    background-color: rgba(51, 197, 255, 0.04);
   }
   .big {
     margin-top: -60px;
@@ -335,17 +339,18 @@ h6 {
     color: rgba(98, 98, 98, 1);
     margin-top: 30px;
   }
-  .big {
-    margin-top: -75px;
-    margin-right: 135px;
-    width: 110px;
-    display: flex;
-  }
+
   .cursor {
     width: 20px;
     display: flex;
     margin-right: 122px;
     margin-top: -5px;
+  }
+  span {
+    font-size: 20px;
+    border: 1px solid rgba(51, 197, 255, 1);
+    padding: 3px;
+    background-color: rgba(51, 197, 255, 0.04);
   }
   .sec3 {
     display: grid;
@@ -413,6 +418,9 @@ h6 {
   }
   span {
     font-size: 25px;
+    border: 1px solid rgba(51, 197, 255, 1);
+    padding: 3px;
+    background-color: rgba(51, 197, 255, 0.04);
   }
   .cursor {
     width: 25px;
