@@ -108,12 +108,12 @@ h6 {
   color: rgba(51, 197, 255, 1);
 }
 .big {
-  margin-right: 507px;
-  margin-top: -210px;
-  width: 360px;
+  margin-right: 510px;
+  margin-top: -200px;
+  width: 350px;
 }
 .cursor {
-  margin-right: 475px;
+  margin-right: 472px;
   margin-top: -10px;
   z-index: 2;
 }
@@ -138,8 +138,8 @@ h6 {
 .sec3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
   margin-top: 60px;
+  gap: 30px;
 }
 
 .right {
@@ -182,7 +182,8 @@ h6 {
   line-height: 30px;
   letter-spacing: 0px;
   text-align: center;
-  margin-left: 600px;
+  margin: auto;
+  margin-left: 800px;
   cursor: pointer;
 }
 .sec4 {
@@ -243,7 +244,11 @@ h6 {
   width: 224px;
   height: 43px;
 }
+
 @media (max-width: 425px) {
+  .container {
+    max-width: 420px;
+  }
   .container {
     overflow: hidden;
   }
@@ -253,23 +258,26 @@ h6 {
   .sec1 h1 {
     font-family: Tajawal;
     font-style: bold;
-    font-size: 15px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 30px;
     letter-spacing: 3px;
     color: rgba(98, 98, 98, 1);
     margin-top: 30px;
   }
+  span {
+    border: 1px solid rgba(51, 197, 255, 1);
+  }
   .big {
-    margin-top: -70px;
-    margin-right: 98px;
-    width: 87px;
-    display: flex;
+    margin-top: -60px;
+    margin-right: 81px;
+    width: 89px;
+    display: none;
   }
   .cursor {
-    width: 20px;
+    width: 15px;
     display: flex;
-    margin-right: 85px;
-    margin-top: -3px;
+    margin-right: 88px;
+    margin-top: -35px;
   }
   .sec3 {
     display: grid;
@@ -335,7 +343,7 @@ h6 {
     width: 20px;
     display: flex;
     margin-right: 122px;
-    margin-top: -3px;
+    margin-top: -5px;
   }
   .sec3 {
     display: grid;
@@ -371,7 +379,7 @@ h6 {
     line-height: 30px;
     text-align: center;
     color: rgba(119, 119, 119, 1);
-    margin-top: 40px;
+    margin-top: 100px;
     overflow: hidden;
   }
   .sec4 p {
