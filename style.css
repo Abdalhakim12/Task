@@ -93,8 +93,13 @@ h6 {
   text-align: center;
   color: rgba(239, 70, 111, 1);
   margin-top: 70px;
+  animation: typing 5s ease-in-out infinite;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
 .sec1 h1 {
+  max-width: 1200px;
   font-family: Tajawal;
   font-weight: 800;
   font-style: ExtraBold;
@@ -103,14 +108,30 @@ h6 {
   letter-spacing: -3.5px;
   text-align: center;
   color: rgba(98, 98, 98, 1);
+  margin: auto;
+  margin-top: 40px;
 }
-.sec1 span {
+
+span {
+  display: inline-block;
   color: rgba(51, 197, 255, 1);
+  font-size: 64px;
+  border: 1px solid rgba(51, 197, 255, 1);
+  padding: 3px;
+  background-color: rgba(51, 197, 255, 0.04);
+  animation: float 3s ease-in-out infinite;
 }
-.big {
-  margin-right: 510px;
-  margin-top: -200px;
-  width: 350px;
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5);
+  }
 }
 .cursor {
   margin-right: 472px;
@@ -162,6 +183,7 @@ h6 {
   margin: auto;
   margin-right: 500px;
   cursor: pointer;
+  animation: float-button 3s infinite ease-in-out;
 }
 .left {
   margin-top: 75px;
@@ -185,6 +207,18 @@ h6 {
   margin: auto;
   margin-left: 800px;
   cursor: pointer;
+  animation: float-button 3s infinite ease-in-out;
+}
+@keyframes float-button {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10);
+  }
 }
 .sec4 {
   font-family: Cairo;
@@ -206,7 +240,7 @@ h6 {
   place-items: center;
   text-align: center;
   border-radius: 10px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .sec5::before,
 .sec5::after {
