@@ -87,7 +87,7 @@ h6 {
   font-family: Aref Ruqaa Ink;
   font-weight: 700;
   font-style: Bold;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 30px;
   letter-spacing: 0px;
   text-align: center;
@@ -216,9 +216,10 @@ h6 {
   left: 0;
   width: 90%;
   height: 90%;
-  border: 1px solid rgba(218, 227, 230, 1);
+  border: 1px solid rgba(119, 119, 119, 0.5);
   border-radius: 10px;
   z-index: 4;
+  margin-left: 20px;
 }
 
 .sec5::before {
