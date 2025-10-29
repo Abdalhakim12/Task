@@ -247,9 +247,6 @@ h6 {
 
 @media (max-width: 425px) {
   .container {
-    max-width: 420px;
-  }
-  .container {
     overflow: hidden;
   }
   .sec1 p {
