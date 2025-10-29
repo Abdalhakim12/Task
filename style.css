@@ -309,3 +309,73 @@ h6 {
     overflow: hidden;
   }
 }
+@media (max-width: 430px) and (min-width: 425px) {
+  .container {
+    overflow: hidden;
+  }
+  .sec1 p {
+    margin-top: 10px;
+  }
+  .sec1 h1 {
+    font-family: Tajawal;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    color: rgba(98, 98, 98, 1);
+    margin-top: 30px;
+  }
+  .big {
+    margin-top: -75px;
+    margin-right: 135px;
+    width: 110px;
+    display: flex;
+  }
+  .cursor {
+    width: 20px;
+    display: flex;
+    margin-right: 122px;
+    margin-top: -3px;
+  }
+  .sec3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+  }
+  .right {
+    width: 265px;
+    margin: auto;
+  }
+  .left {
+    margin: auto;
+  }
+  .sec5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    margin-top: 20px;
+  }
+  .appear {
+    display: none;
+  }
+  .hide {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 400px;
+    display: flex;
+    font-family: Cairo;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(119, 119, 119, 1);
+    margin-top: 40px;
+    overflow: hidden;
+  }
+  .sec4 p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
