@@ -255,8 +255,8 @@ h6 {
   .sec1 h1 {
     font-family: Tajawal;
     font-style: bold;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     letter-spacing: 3px;
     color: rgba(98, 98, 98, 1);
     margin-top: 30px;
@@ -273,8 +273,8 @@ h6 {
   .cursor {
     width: 15px;
     display: flex;
-    margin-right: 115px;
-    margin-top: -35px;
+    margin-right: 100px;
+    margin-top: -45px;
   }
   .sec3 {
     display: grid;
@@ -305,13 +305,18 @@ h6 {
     font-family: Cairo;
     font-weight: 400;
     font-style: Regular;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0;
-    line-height: 30px;
+    line-height: 40px;
     text-align: center;
     color: rgba(119, 119, 119, 1);
-    margin-top: 40px;
+    margin-top: 80px;
     overflow: hidden;
+  }
+  .sec4 p {
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 40px;
   }
 }
 @media (max-width: 430px) and (min-width: 425px) {
